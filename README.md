@@ -1,2 +1,1 @@
-# alcanceparanagua
-Site da Alcance Paranaguá
+Site oficial de Alcance Paranaguá, desenvolvido por https://vinssoftware.com.br.
