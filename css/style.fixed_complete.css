@@ -1,0 +1,639 @@
+@charset "UTF-8";
+
+/* Gerais */
+
+#brand-footer {
+display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+}
+
+.brand-footer {
+display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+}
+
+.logo-footer {
+    width: 100px;
+    margin-right: 50px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: azure;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: #4abdac;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 100px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover {
+    color: #4ad9cba9;
+}
+
+#navbar-links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    transition: 0.6s;
+}
+
+/* Slider */
+
+.container-carrosel {
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #4ad9cba9;;
+}
+
+/* Nossos pastores */
+
+.titulo-pastores {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.container-pastores {
+    margin-top: 150px;
+}
+
+.nossos-pastores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.frases { 
+    margin-right: 100px;
+}
+
+.frase1, .frase2, .frase3, .frase4{
+    color: #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.frase5 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.foto-pastores {
+    height: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.161);
+}
+
+.tamanho-icone {
+    height: 40px;
+}
+
+.redes {
+    padding-top: 30px;
+}
+
+/* Nossos pastores */
+
+/* palavra da semana */
+
+.palavra-container {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.Palavratitulo {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.palavra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.frame{
+    width:935px;
+    height:520px;
+    border: 0px;
+}
+
+/* palavra da semana */
+
+
+
+/* Redes sociais */
+
+.section-redes {
+    margin: 150px 0 50px 0;
+    background-color: #313233;
+    padding-bottom: 150px;
+}
+
+.section-redes2 {
+    margin: 50px 0 50px 0;
+}
+
+.container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.facebook, .instagran, .youtube {
+    background-color: rgba(0, 0, 0, 0.434);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text-sub {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.botao-incone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.botao-de-acesso {
+    background-color: #4AD9CA;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.botao-de-acesso-face {
+    background-color: #4AD9CA;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.botao2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.texto1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Redes sociais */
+
+/* Mapa */
+
+.Mapa-font {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-texto-mapa {
+    display: inline-block;
+    text-align: center;
+    margin: 0 200px 50px 200px;
+}
+
+.texto-mapa {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.size-map {
+    width: 90vw;
+    height: 70vh;
+}
+
+#titulo4 {
+    margin: 150px 0 150px 0;
+}
+
+/* MAPA */
+
+/* CONTRIBUICOES */
+
+.titulo-Contribuicoes {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#linha-vertical {
+    height: 400px;
+    border-right: 1px solid #313233;
+}
+
+#linha-vertical2 {
+    height: 400px;
+    border-right: 1px solid #313233;
+}
+
+.fonte-contr {
+    font-family: 'Roboto';
+    color: #313233;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.fonte-contr-1 {
+    font-family: 'Roboto';
+    color: #313233;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.logo-contri {
+    width: 200px;
+    margin: 20px;
+}
+
+.container-logo-contri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container-contribuicoes-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px 100px 100px;
+}
+
+/* CONTRIBUICOES */
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 72px;
+    background-color: #4abdac;
+    padding: 15px;
+}
+
+.titulo-footer {
+    color: #4AD9CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.referencia p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.Desenvolvido-por {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    /* Geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* Nossos Pastores */
+    .nossos-pastores {
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-pastores {
+        margin-top: 50px;
+    }
+
+    /* Palavra */
+
+    .palavra {
+        width: 650px;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Redes sociais */
+
+    .facebook, .instagran, .youtube {
+        width: 230px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    /* slider */
+    #mainSlider {
+        margin-top: 10px;
+    }
+
+    .container-carrosel {
+        margin-top: 40px;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    /* nossos Pastores */
+
+    .titulo-Contribuicoes {
+        font-size: 20px;
+    }
+
+    .nossos-pastores {
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .container-pastores {
+        margin-top: 0px;
+    }
+
+    .nossos-pastores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frase1, .frase2, .frase3, .frase4 {
+        font-size: 15px;
+    }
+
+    .foto-pastores {
+        height: 233px;
+        width: 350px;
+    }
+
+    /* Palavra */
+
+    .Palavratitulo {
+        font-size: 20px;
+    }
+
+    .palavra {
+        width: 380px;
+        padding: 0;
+    }
+
+    .palavra-container {
+        background-color: black;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        height: 280px;
+    }
+
+    /* Redes sociais */
+
+    .facebook, .instagran, .youtube {
+        width: 280px;
+    }
+
+    .section-redes {
+        margin: 0;
+    }
+
+    .section-redes2 {
+        margin: 0;
+    }
+
+    .container-redes {
+        display: flex;
+        flex-direction: column;        
+    }
+    .facebook, .instagran, .youtube {
+        margin-bottom: 51px;
+    }
+
+    .botao-de-acesso-face {
+        margin-top: 70px;
+    }
+
+
+    /* Mapa */
+
+    .Mapa-font {
+        font-size: 20px;
+    }
+
+    .texto-mapa {
+        font-size: 15px;
+    }
+
+    .container-texto-mapa {
+        margin-top: 0;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Footer */
+    
+    footer {
+        height: 120px;
+        width: auto;
+	justify-content: flex-start;
+    }
+
+    /* oferta */
+
+    .oferta {
+        width: 350px;
+    }
+
+    .container-contribuicoes-1 {
+        display: inline;
+    }
+
+    .container-logo-contri {
+        margin-bottom: 0px;
+    }
+
+    #linha-vertical {
+        height: 0px;
+    }
+
+    #linha-vertical2 {
+        height: 0px;
+    }
+
+    .fonte-contr-1, .fonte-contr {
+        font-size: 15px;
+        margin: 0 50px 20px 50px;
+    }
+
+    .logo-contri {
+        width: 100px;
+        margin: 20px;
+    }
+}
+
+
+/* --- BLOCO SEGURO HERO-TEXT (escopado em .nossos-pastores) --- */
+.nossos-pastores .hero-text {
+  color: #313233;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  margin: 0 0 0.5rem 0;
+  max-width: 720px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  text-align: left;
+  padding: 10px 0;
+}
+.nossos-pastores .hero-text .verse {
+  display: block;
+  margin-top: 0.25rem;
+  font-style: italic;
+  font-size: 0.95em;
+}
+.nossos-pastores .visually-hidden-md { display: none; }
+@media (max-width: 768px) {
+  .nossos-pastores .hero-text { max-width: 90vw; font-size: 16px; text-align: left; }
+  .nossos-pastores .visually-hidden-md { display: inline; }
+}
+/* --- FIM BLOCO --- */
