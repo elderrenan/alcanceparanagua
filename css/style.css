@@ -609,16 +609,16 @@ footer {
         margin: 20px;
     }
 
+	/* --- BLOCO SEGURO HERO-TEXT --- */
 .hero-text {
-
   color: #313233;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 1.45;
   margin: 0 0 0.5rem 0;
-  max-width: 720px; 
+  max-width: 720px;
   white-space: normal;
-  overflow-wrap: anywhere;  /
+  overflow-wrap: anywhere;
   word-break: break-word;
   text-align: left;
   padding: 10px 0;
@@ -629,21 +629,11 @@ footer {
   font-style: italic;
   font-size: 0.95em;
 }
-
-/* soft-break controlado */
-.visually-hidden-md {
-  display: none;
-}
-
+.visually-hidden-md { display: none; }
 @media (max-width: 768px) {
-  .hero-text {
-    max-width: 90vw;
-    font-size: 16px;
-    text-align: left;
-  }
-  .visually-hidden-md {
-    display: inline;
-  }
+  .hero-text { max-width: 90vw; font-size: 16px; text-align: left; }
+  .visually-hidden-md { display: inline; }
 }
+
 
 }
