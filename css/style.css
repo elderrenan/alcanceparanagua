@@ -608,4 +608,44 @@ footer {
         width: 100px;
         margin: 20px;
     }
+
+/* texto principal responsivo (substitui .frase1..4) */
+.hero-text {
+  color: #313233;
+  font-family: 'Roboto', sans-serif;
+  /* fonte fluida entre 16px e 20px */
+  font-size: clamp(16px, 1.6rem + 0.5vw, 20px);
+  line-height: 1.45;
+  margin: 0 0 0.5rem 0;
+  max-width: 72ch;            /* limita comprimento da linha para melhor leitura */
+  white-space: normal;
+  overflow-wrap: break-word;  /* quebra palavras longas quando necessário */
+  word-break: break-word;
+  hyphens: auto;              /* permite hífens automáticos em navegadores que suportam */
+  text-align: left;           /* ajuste conforme seu design (center/justify) */
+  padding: 10px 0;
+}
+
+/* estilo separado para citação/versículo se quiser destacar */
+.hero-text .verse {
+  display: block;
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+/* opcional: soft-break controlado por classe no <br> */
+.visually-hidden-md {
+  display: none; /* padrão: não insere quebra */
+}
+@media (max-width: 768px) {
+  .hero-text {
+    max-width: 90vw; /* ocupa mais espaço em celular */
+    font-size: clamp(15px, 1.4rem + 1.0vw, 18px);
+    text-align: justify; /* opcional: deixar justificado em telas pequenas */
+  }
+  .visually-hidden-md {
+    display: inline; /* em telas menores mostramos o <br> para forçar quebra suave */
+  }
+}
+
 }
