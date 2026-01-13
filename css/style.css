@@ -203,7 +203,7 @@ section {
     justify-content: center;
 }
 
-.facebook, .instagran, .youtube {
+.facebook, .instagran, .youtube, .whatsapp {
     background-color: rgba(0, 0, 0, 0.434);
     margin-right: auto;
     margin-left: auto;
@@ -450,7 +450,7 @@ footer {
 
     /* Redes sociais */
 
-    .facebook, .instagran, .youtube {
+    .facebook, .instagran, .youtube, .whatsapp {
         width: 230px;
     }
 
@@ -527,7 +527,7 @@ footer {
 
     /* Redes sociais */
 
-    .facebook, .instagran, .youtube {
+    .facebook, .instagran, .youtube, .whatsapp {
         width: 280px;
     }
 
@@ -543,7 +543,7 @@ footer {
         display: flex;
         flex-direction: column;        
     }
-    .facebook, .instagran, .youtube {
+    .facebook, .instagran, .youtube, .whatsapp {
         margin-bottom: 51px;
     }
 
